@@ -1,0 +1,80 @@
+define turnright :
+	turnleft
+	turnleft
+	turnleft
+define gerak :
+	move
+	putbeeper
+define move2 :
+	gerak
+	gerak
+	move
+
+define tulis8:
+	move2
+	turnleft
+	move2
+	turnleft
+	move2
+	turnleft
+	move2
+	turnright
+	move2
+	turnright
+	move2
+	turnright
+	move2
+
+define tulis1:
+	turnleft
+	move
+	move
+	turnleft
+	move
+	gerak
+	move
+	turnright
+	gerak
+	turnright
+	gerak
+	gerak
+	gerak
+	gerak
+	gerak
+	turnright
+	move
+	turnleft
+	gerak
+	turnleft
+	gerak
+	gerak
+	move
+	turnleft
+	move
+	turnright
+
+define tulis9:
+	gerak
+	turnright
+	move
+	turnleft
+	gerak
+	gerak
+	move
+	turnleft
+	gerak
+	gerak
+	gerak
+	move2
+	turnleft
+	move2
+	turnleft
+	move2
+	turnleft
+	move2
+
+tulis8
+tulis1
+tulis9
+move
+turnoff

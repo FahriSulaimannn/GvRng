@@ -1,0 +1,29 @@
+define turnright:
+	turnleft
+	turnleft
+	turnleft
+define masuk:
+	move
+	turnleft
+	move
+	turnleft
+	turnleft
+	move
+	turnleft
+	move
+move
+masuk
+move
+masuk
+move
+masuk
+turnright
+move
+turnright
+masuk
+move
+masuk
+move
+masuk
+move
+turnoff

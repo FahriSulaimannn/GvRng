@@ -1,0 +1,15 @@
+define turnright:
+	do 3:
+		turnleft
+define gerak:
+	do 4:
+		move
+	putbeeper
+	turnleft
+move
+turnright
+do 4:
+	gerak
+turnright
+move
+turnoff

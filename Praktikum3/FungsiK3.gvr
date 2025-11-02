@@ -1,0 +1,73 @@
+define right:
+	turnleft
+	turnleft
+	turnleft
+define move2:
+	move
+	putbeeper
+	move
+	putbeeper
+define zero:
+	move
+	turnleft
+	putbeeper
+	move2
+	move
+	putbeeper
+	turnleft
+	move2
+	move
+	putbeeper
+define nine:
+	move2
+	move2
+	turnleft
+
+zero
+zero
+right
+move
+move
+turnleft
+
+putbeeper
+move
+right 
+move2
+move
+right
+move
+putbeeper
+move
+right
+move
+putbeeper
+move 
+turnleft
+move
+putbeeper
+right
+move
+turnleft
+move
+putbeeper
+turnleft
+move
+putbeeper
+move2
+move
+
+nine
+nine
+move2
+move
+putbeeper
+turnleft
+move2
+turnleft
+move2
+
+move
+move
+
+turnoff

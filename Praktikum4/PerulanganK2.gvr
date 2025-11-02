@@ -1,0 +1,16 @@
+define jalan:
+	do 3:
+		move
+define gerak:
+	move
+	turnleft
+	jalan
+	pickbeeper
+	do 2:
+		turnleft
+	jalan
+	turnleft
+	move
+do 3:
+	gerak
+turnoff

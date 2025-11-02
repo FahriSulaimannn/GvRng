@@ -1,0 +1,19 @@
+define jalan:
+	move
+	if next_to_a_beeper:
+		pickbeeper
+define masuk_lorong:
+	do 3:
+		jalan
+define gerak:
+	jalan
+	turnleft
+	masuk_lorong
+	do 2:
+		turnleft
+	masuk_lorong
+	turnleft
+	jalan
+do 3:
+	gerak
+turnoff

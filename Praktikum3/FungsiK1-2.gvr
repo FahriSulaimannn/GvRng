@@ -1,0 +1,20 @@
+define hadapkanan:
+	putbeeper
+	turnleft
+	turnleft
+	turnleft
+define jalan:
+	move
+	move
+jalan
+jalan
+hadapkanan
+move
+jalan
+hadapkanan
+jalan
+hadapkanan
+move
+hadapkanan
+move
+turnoff

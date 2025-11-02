@@ -1,0 +1,23 @@
+define turnright:
+	do 3:
+		turnleft
+define jalan:
+	move
+	if next_to_a_beeper:
+		pickbeeper
+define putar_balik:
+	do 2:
+		turnleft
+do 7:
+	jalan
+	turnright
+	do 4:
+		jalan
+	putar_balik
+	do 4:
+		jalan
+	turnright
+putar_balik
+do 7:
+	move
+turnoff

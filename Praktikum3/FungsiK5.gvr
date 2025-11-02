@@ -1,0 +1,20 @@
+define turnright:
+	turnleft	
+	turnleft
+	turnleft
+define gerak:
+	move
+	move
+	move
+	move
+	putbeeper
+	turnleft
+move
+turnright
+gerak
+gerak
+gerak
+gerak
+turnright
+move
+turnoff
